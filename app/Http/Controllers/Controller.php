@@ -9,7 +9,4 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
-    Route::get('/' [PageController::class, 'index']);
-    Route::get('/about' [Pagecontroller::class, 'about']);
-    Route::get('/articles/{id}', [Pagecontroller::class, 'articles']);
 }
